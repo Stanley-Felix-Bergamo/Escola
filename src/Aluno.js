@@ -28,7 +28,6 @@ let alunos = [
 
 let alunosAprovados = alunos.filter(function (item) {
     return item.nota >= 6 ? console.log(`${item.nome} nota: ${item.nota}`) : '';
-
 });
 
 console.log(alunosAprovados);
